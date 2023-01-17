@@ -5,10 +5,17 @@ html{
 }
 
 .container{
-    width: 600px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
     border: 2px #000 solid;
     margin-right: auto;
     margin-left: auto;
     margin-top: 10em;
+}
+
+.signUp :not(hr){
+    margin-left: 20px;
+}
+.button button{
+    margin-top: 20px;
 }
