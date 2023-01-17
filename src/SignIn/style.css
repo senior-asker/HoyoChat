@@ -5,10 +5,20 @@ html{
 }
 
 .container{
-    width: 600px;
+    width: 400px;
     height: 300px;
     border: 2px #000 solid;
     margin-right: auto;
     margin-left: auto;
     margin-top: 10em;
+}
+
+.signIn :not(hr){
+    margin-left: 20px;
+}
+
+.button button{
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
 }
